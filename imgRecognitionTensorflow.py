@@ -15,7 +15,7 @@ opciones = ['Avión', 'Coche', 'Pájaro', 'Gato', 'Reno', 'Perro', 'Rana', 'Caba
 
 
 # esto es para reducir el tamaño de conjunto de pruebas
-'''
+#'''
 training_images = training_images[:20000]
 training_labels = training_labels[:20000]
 training_images = training_images[:4000]
@@ -50,7 +50,7 @@ model.save('modelo_entrenado.model')
 
 pd.DataFrame(history.history).plot()
 grafica.show()
-'''
+#'''
 
 
 #'''
